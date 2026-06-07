@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AliExpress Clone - Карточка товара</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header (тот же, что и в каталоге) -->
+  <header class="header">
+    <div class="header-top">
+      <div class="container header-row">
+        <div class="logo">AliExpress</div>
+        <div class="search-bar">
+          <input type="text" placeholder="Я ищу...">
+          <button>Поиск</button>
+        </div>
+        <div class="header-icons">
+          <span>🔔</span>
+          <span>🛒</span>
+          <span>👤 Войти</span>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="#">Категории</a></li>
+          <li><a href="#">Суперпредложения</a></li>
+          <li><a href="#">Бесплатная доставка</a></li>
+          <li><a href="#">Бренды</a></li>
+          <li><a href="#">Новинки</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Карточка товара -->
+  <main class="container product-detail">
+    <div class="product-gallery">
+      <div class="main-image">
+        <img src="https://via.placeholder.com/400x400/FF6600/ffffff?text=Основное+фото" alt="Платье">
+      </div>
+      <div class="thumbnails">
+        <img src="https://via.placeholder.com/80x80/FF6600/ffffff?text=1" alt="Миниатюра 1">
+        <img src="https://via.placeholder.com/80x80/FF6600/ffffff?text=2" alt="Миниатюра 2">
+        <img src="https://via.placeholder.com/80x80/FF6600/ffffff?text=3" alt="Миниатюра 3">
+      </div>
+    </div>
+
+    <div class="product-info">
+      <h1 class="product-title">Женское летнее платье с цветочным принтом</h1>
+      <div class="product-price">
+        <span class="current-price">US $9.99</span>
+        <span class="old-price">$19.99</span>
+        <span class="discount">-50%</span>
+      </div>
+      <p class="shipping-info">🚚 Бесплатная доставка · Приблизительно 15–25 дней</p>
+      <div class="product-actions">
+        <button class="btn-buy">Купить сейчас</button>
+        <button class="btn-cart">Добавить в корзину</button>
+      </div>
+      <div class="product-meta">
+        <span>⭐ 4.8 (2,345 оценок) | 10,000+ заказов</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Похожие товары (используем тот же класс card) -->
+  <section class="container">
+    <h2 class="section-title">Вам также может понравиться</h2>
+    <div class="product-grid">
+      <div class="card">
+        <div class="card-img">
+          <img src="https://via.placeholder.com/200x200/FF6600/ffffff?text=Платье2" alt="Платье">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Женское платье-рубашка</p>
+          <p class="card-price">US $12.49</p>
+          <p class="card-ship">🚚 Бесплатная доставка</p>
+          <div class="card-rating">⭐ 4.7 | 567 заказов</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="https://via.placeholder.com/200x200/FF6600/ffffff?text=Топ2" alt="Топ">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Топ женский с кружевом</p>
+          <p class="card-price">US $7.99</p>
+          <p class="card-ship">🚚 Бесплатная доставка</p>
+          <div class="card-rating">⭐ 4.6 | 1,890 заказов</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 AliExpress Clone — только для учебных целей</p>
+    </div>
+  </footer>
+</body>
+</html>
